@@ -1,25 +1,19 @@
 # EXPERIMENT--01-ALP-FOR-8086
-### Name : M Sanjay
+### Name :M Sanjay
 ### Roll no : 212222240090
 ### Date of experiment :
 
-
-
-
-
-## Aim: 
-To Write and execute ALP on fundamental arithmetic and logical operations
+## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
 ## Theory 
 Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as EMU8086, is an emulator of the program 8086 microprocessor. It is developed with a built-in 8086 assembler. This application is able to run programs on both PC desktops and laptops. This tool is primarily designed to copy or emulate hardware. These include the memory of a program, CPU, RAM, input and output devices, and even the display screen. There are instructions to follow when using this emulator. It can be executed into one of the two ways: backward or forward. There are also examples of assembly source code included. With this, it allows the programming of assembly language, reverse engineering, hardware architecture, and creating miniature operating system (OS). The user interface of 8086 Microprocessor Emulator is simple and easy to manage. There are five major buttons with icons and titles included. These are “Load”, “Reload”, “Step Back”, “Single Step”, and “Run”. Above those buttons is the menu that includes “File”, “View”, “Virtual Devices”, “Virtual Drive”, and “Help”. Below the buttons is a series of choices that are usually in numbers and codes. At the leftmost part is an area called “Registers” with an indication of either “H” or “L”. The other side is divided into two, which enables users to manually reset, debug, flag, etc. What is 8086 emulator emu8086 is an emulator of Intel 8086 (AMD compatible) microprocessor with integrated 8086 assembler and tutorials for beginners. Emulator runs programs like the real microprocessor in step-by-step mode. it shows registers, memory, stack, variables and flags.
 
-
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	 Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
- 
-3. write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
 4.	 Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
@@ -29,6 +23,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
+
 
 ![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
 
@@ -40,74 +35,112 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
-## Programs for arithmetic  operations:
+## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
 ```
 org 100h
-MOV AX,7892H;
-MOV BX,6923H;
-ADD AX,BX;
-MOV CX,AX;
-MOV AX,00H;
+mov AL,59h;
+mov BL,79h;
+ADD AL,BL;
+HLT
 ret
 ```
-## Output :
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/0cb7a200-db59-4b76-8707-bb425839acdf)
+## Output  
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/5606289c-42b4-42f6-80a9-1d2d300422cf)
 
- 
-## Subtraction of 8 bit numbers  ALP:
-```
+
+## Subtraction   of 8 bit numbers  ALP 
+ ```
 org 100h
-MOV AL,65H;
-MOV BL,08H;
+mov AL,83h;
+mov BL,33h;
 SUB AL,BL;
-MOV CL,AL;
-MOV AL,00H;           
+HLT
 ret
 ```
- 
-## Output:
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/7ed0d634-481f-4168-8425-dec7ee466670)
+## Output  
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/f14dd83f-8d6a-41ca-9149-5d9ec9e33387)
 
-## Multiplication alp:
+
+## Multiplication alp 
 ```
 org 100h
-MOV AL,65H;
-MOV BL,08H;
+mov AL,75h;
+mov BL,12h;
 MUL BL;
-MOV CL,AL;
-MOV AL,00H;
+HLT
 ret
 ```
- ## Output:
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/0a26f00e-c72a-48d6-96f1-75f37e78ae4e)
+ ## Output  
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/25df7a2a-846c-430a-aace-5702137ee85c)
 
 
-
-## Division alp:
+## Division alp 
 ```
 org 100h
-MOV AX,200H;
-MOV BX,20H;
-DIV BX;
-MOV CX,AX;
-MOV AX,00H;
+mov AL,65h;
+mov BL,15h;
+DIV BL;
+HLT
 ret
 ```
+## Output  
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/2fc79734-39bd-4bba-b19a-3a72505963e0)
 
-## Output :
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/4cffca41-3421-4e5b-bcc0-3428b5a2b658)
 
+## Programs for logical operations
+## AND
+```
+org 100h
+mov AL,66h;
+mov BL,70h;
+AND AL,BL;
+HLT
+ret
+```
+## Output  
+
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/3f5df7af-30aa-4ff3-88b8-81c235cdf728)
+
+
+## OR
+```
+org 100h
+mov AL,66h;
+mov BL,70h;
+OR AL,BL;
+HLT
+ret
+``` 
+## Output
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/7feb4715-591b-4209-a6d8-aa942152f88e)
+
+
+## NOT
+```
+org 100h
+mov AL,66h;
+NOT AL;
+HLT;
+ret
+```
+## Output  
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/8a7a2f46-14a5-40e9-a5ac-31e9c340596f)
+
+
+## XOR 
+```
+org 100h
+mov AL,66h;
+mov BL,70h;
+XOR AL,BL;
+HLT
+ret
+```
+## Output  
+![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/68cc9f21-5039-4e63-9754-a2cb0e17dca3)
 
 
 ## Result :
-Thus, a program is executed on ALP for the fundamental arithmetic and logical operations.
-
-
-
-
-
-
-
-
+ Thus the  ALP on fundamental arithmetic and logical operations executed successfully.

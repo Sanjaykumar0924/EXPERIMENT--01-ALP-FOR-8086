@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-### Name :M Sanjay
+### Name : M Sanjay
 ### Roll no : 212222240090
-### Date of experiment :
+### Date of experiment : 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -47,8 +47,7 @@ HLT
 ret
 ```
 ## Output  
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/5606289c-42b4-42f6-80a9-1d2d300422cf)
-
+ ![Screenshot 2024-03-19 181900](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/12cff806-9a6f-4c8e-b70d-f4072e554b8f)
 
 ## Subtraction   of 8 bit numbers  ALP 
  ```
@@ -60,8 +59,7 @@ HLT
 ret
 ```
 ## Output  
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/f14dd83f-8d6a-41ca-9149-5d9ec9e33387)
-
+![Screenshot 2024-03-19 182631](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/e6c81de2-1cfc-44a6-a28e-d419aef37f3b)
 
 ## Multiplication alp 
 ```
@@ -73,8 +71,7 @@ HLT
 ret
 ```
  ## Output  
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/25df7a2a-846c-430a-aace-5702137ee85c)
-
+![Screenshot 2024-03-19 183050](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/e4f86edb-6f72-4de5-bc18-76463f6f3be1)
 
 ## Division alp 
 ```
@@ -86,8 +83,7 @@ HLT
 ret
 ```
 ## Output  
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/2fc79734-39bd-4bba-b19a-3a72505963e0)
-
+![Screenshot 2024-03-19 183329](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/8e6afe1b-a76c-44fc-ba9c-40e33d633386)
 
 ## Programs for logical operations
 ## AND
@@ -101,8 +97,7 @@ ret
 ```
 ## Output  
 
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/3f5df7af-30aa-4ff3-88b8-81c235cdf728)
-
+![Screenshot 2024-03-19 175618](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/2e28febb-74e4-4dd7-a27c-e595747c151d)
 
 ## OR
 ```
@@ -114,8 +109,7 @@ HLT
 ret
 ``` 
 ## Output
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/7feb4715-591b-4209-a6d8-aa942152f88e)
-
+![Screenshot 2024-03-19 175801](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/b97bac58-42ed-4d66-b80e-0b8ae4b3b8b3)
 
 ## NOT
 ```
@@ -126,8 +120,7 @@ HLT;
 ret
 ```
 ## Output  
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/8a7a2f46-14a5-40e9-a5ac-31e9c340596f)
-
+![Screenshot 2024-03-19 180312](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/61616ca5-60fd-490d-98eb-5a39b1e35df3)
 
 ## XOR 
 ```
@@ -139,8 +132,7 @@ HLT
 ret
 ```
 ## Output  
-![image](https://github.com/Sanjay22006832/EXPERIMENT--01-ALP-FOR-8086/assets/119830477/68cc9f21-5039-4e63-9754-a2cb0e17dca3)
-
+![Screenshot 2024-03-19 181006](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/5f39f2c3-0492-4842-9480-f4f07edfb90c)
 
 ## Result :
  Thus the  ALP on fundamental arithmetic and logical operations executed successfully.

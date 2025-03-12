@@ -1,6 +1,6 @@
 # EXPERIMENT--01-ALP-FOR-8086
-### Name : M Sanjay
-### Roll no : 212222240090
+### Name : SANJAY KUMAR H
+### Roll no : 212223040182
 ### Date of experiment : 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -36,103 +36,68 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
 
 ## Programs for arithmetic  operations
+## ADDITION,SUBRACTION,MULTIPLICATION AND DIVISION
+ORG 100H
+  ;ADDITION
+MOV AX, 1234H  
+MOV BX, 5678H  
+ADD AX, BX  
+MOV [2000H], AX  
 
-## Addition  of 8 bit ALP 
-```
-org 100h
-mov AL,59h;
-mov BL,79h;
-ADD AL,BL;
-HLT
-ret
-```
-## Output  
- ![Screenshot 2024-03-19 181900](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/12cff806-9a6f-4c8e-b70d-f4072e554b8f)
+ 
+  ;SUBRACTION
+MOV AX, 4689H   
+MOV BX, 5678H    
+SUB AX, BX       
+MOV [2004H], AX 
+  
+  ;MULTIPLICATION
+  
+MOV AX, 3H  
+MOV BX, 5H  
+MUL BX  
+MOV [2006H], AX  
+   
+   ;Division
+MOV AX, 8H  
+MOV BX, 3H  
+DIV BX  
+MOV [2008H], AX  
+                          
+HLT  
+![a new](https://github.com/user-attachments/assets/132abbb2-a6bd-4b5c-a7ab-0573a7373207)
 
-## Subtraction   of 8 bit numbers  ALP 
- ```
-org 100h
-mov AL,83h;
-mov BL,33h;
-SUB AL,BL;
-HLT
-ret
-```
-## Output  
-![Screenshot 2024-03-19 182631](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/e6c81de2-1cfc-44a6-a28e-d419aef37f3b)
 
-## Multiplication alp 
-```
-org 100h
-mov AL,75h;
-mov BL,12h;
-MUL BL;
-HLT
-ret
-```
- ## Output  
-![Screenshot 2024-03-19 183050](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/e4f86edb-6f72-4de5-bc18-76463f6f3be1)
-
-## Division alp 
-```
-org 100h
-mov AL,65h;
-mov BL,15h;
-DIV BL;
-HLT
-ret
-```
-## Output  
-![Screenshot 2024-03-19 183329](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/8e6afe1b-a76c-44fc-ba9c-40e33d633386)
 
 ## Programs for logical operations
-## AND
-```
-org 100h
-mov AL,66h;
-mov BL,70h;
-AND AL,BL;
-HLT
-ret
-```
-## Output  
+## AND,OR,NOT & XOR
 
-![Screenshot 2024-03-19 175618](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/2e28febb-74e4-4dd7-a27c-e595747c151d)
-
-## OR
-```
-org 100h
-mov AL,66h;
-mov BL,70h;
-OR AL,BL;
-HLT
+ org 100h 
+ ;AND
+ MOV AX, 1234H  
+MOV BX, 5678H  
+AND AX, BX  
+MOV [2000H], AX
+         
+   ;OR      
+MOV AX, 561H    
+NOT AX 
+MOV [2004H], AX          
+         
+   ;NOT      
+MOV AX, 1234H  
+MOV BX, 5678H  
+OR AX, BX  
+MOV [2006H], AX 
+           
+    ;XOR       
+MOV AX, 1234H  
+MOV BX, 5678H  
+XOR AX, BX  
+MOV [2008H], AX       
 ret
-``` 
-## Output
-![Screenshot 2024-03-19 175801](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/b97bac58-42ed-4d66-b80e-0b8ae4b3b8b3)
+![l new](https://github.com/user-attachments/assets/bf0d9906-821a-4ca3-aabc-4c552a964afe)
 
-## NOT
-```
-org 100h
-mov AL,66h;
-NOT AL;
-HLT;
-ret
-```
-## Output  
-![Screenshot 2024-03-19 180312](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/61616ca5-60fd-490d-98eb-5a39b1e35df3)
-
-## XOR 
-```
-org 100h
-mov AL,66h;
-mov BL,70h;
-XOR AL,BL;
-HLT
-ret
-```
-## Output  
-![Screenshot 2024-03-19 181006](https://github.com/Saravana-kumar369/EXPERIMENT--01-ALP-FOR-8086/assets/117925254/5f39f2c3-0492-4842-9480-f4f07edfb90c)
 
 ## Result :
  Thus the  ALP on fundamental arithmetic and logical operations executed successfully.

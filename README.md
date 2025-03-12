@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT 01 ALP FOR 8086
 ### Name : SANJAY KUMAR H
 ### Roll no : 212223040182
 ### Date of experiment : 
